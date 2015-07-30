@@ -2545,7 +2545,20 @@ html.touch .links a.tap {
 
 /* NEW PANEL */
 
+#container {
+    display: block;
+    min-width: 760px;
+}
 
+.about .panel {
+    min-width: 760px;
+    margin-left: 0;
+}
+
+.center {
+    max-width: 1200px;
+    min-width: 760px;
+}
 
 
     
