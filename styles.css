@@ -366,7 +366,7 @@ button.hide {
 }
 
 .cell {
-  vertical-align: middle;
+  vertical-align: bottom;
   display: table-cell;
 }
 
@@ -484,7 +484,7 @@ button.hide {
   letter-spacing: -0.6px;
   position: relative;
   z-index: 1;
-    color: rgba(255,255,255,0.75);
+    color: rgba(255,255,255,0.99);
 }
 
 
@@ -2541,6 +2541,13 @@ html.touch .links a.tap {
 .logos {
     min-width: 100%;
     max-width: 100%;
+}
+
+td, th {
+    border-left: solid 1px rgba(255,255,255,0.15);
+}
+.no-border {
+    border-left: none;
 }
 
 /* NEW PANEL */
